@@ -1,75 +1,64 @@
 {
-  "name": "zelikov-ngx-tui-image-editor",
-  "version": "7.0.2",
-  "description": "A simple Angular6+ wrapper for TOAST UI Image Editor",
+  "_from": "zelikov-ngx-tui-image-editor",
+  "_inBundle": false,
+  "_integrity": "sha512-Bp59jjZ2BqvElskbwVua5IhFiQNLQfpjeQGpYok/vOjeTmCjpDW9F1qyAlYR9/gs3S2FKVv1t+TTY3VigscoyA==",
+  "_location": "/zelikov-ngx-tui-image-editor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "zelikov-ngx-tui-image-editor",
+    "name": "zelikov-ngx-tui-image-editor",
+    "escapedName": "ngx-tui-image-editor",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-tui-image-editor/-/ngx-tui-image-editor-7.0.2.tgz",
+  "_shasum": "68d2764870c9b04d212bd8acfee2b1a8957efc30",
+  "_spec": "ngx-tui-image-editor",
+  "_where": "C:\\Users\\andre\\OneDrive\\Рабочий стол\\Project\\itraTask\\Front\\Front",
   "author": "Joshua Washke",
+  "bugs": {
+    "url": "https://github.com/jwashke/toast-ui-image-editor-angular-wrapper/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "^1.9.0",
+    "zelikov-tui-image-editor": "^3.5.3-beta1"
+  },
+  "description": "A simple Angular6+ wrapper for TOAST UI Image Editor",
+  "devDependencies": {},
+  "es2015": "fesm2015/ngx-tui-image-editor.js",
+  "esm2015": "esm2015/ngx-tui-image-editor.js",
+  "esm5": "esm5/ngx-tui-image-editor.js",
+  "fesm2015": "fesm2015/ngx-tui-image-editor.js",
+  "fesm5": "fesm5/ngx-tui-image-editor.js",
+  "homepage": "https://github.com/jwashke/toast-ui-image-editor-angular-wrapper#readme",
+  "license": "MIT",
+  "main": "bundles/ngx-tui-image-editor.umd.js",
+  "metadata": "ngx-tui-image-editor.metadata.json",
+  "module": "fesm5/ngx-tui-image-editor.js",
+  "name": "zelikov-ngx-tui-image-editor",
+  "peerDependencies": {
+    "@angular/common": "^7.2.7",
+    "@angular/core": "^7.2.7"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jwashke/toast-ui-image-editor-angular-wrapper.git"
   },
-  "license": "MIT",
+  "sideEffects": false,
+  "typings": "ngx-tui-image-editor.d.ts",
+  "version": "7.0.4",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "format": "prettier --write \"src/**/*.{js,ts,html,css}\"",
-    "format:projects": "prettier --write \"projects/**/*.{js,ts,html,css}\""
-  },
-  "dependencies": {
-    "@angular/animations": "^7.2.7",
-    "@angular/common": "^7.2.7",
-    "@angular/compiler": "^7.2.7",
-    "@angular/core": "^7.2.7",
-    "@angular/forms": "^7.2.7",
-    "@angular/http": "^7.2.7",
-    "@angular/platform-browser": "^7.2.7",
-    "@angular/platform-browser-dynamic": "^7.2.7",
-    "@angular/router": "^7.2.7",
-    "core-js": "^2.5.4",
-    "rxjs": "~6.4.0",
-    "zelikov-tui-image-editor": "^3.5.3-beta1",
-    "zone.js": "~0.8.26"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.8.0",
-    "@angular-devkit/build-ng-packagr": "~0.8.0",
-    "@angular/cli": "7.3.4",
-    "@angular/compiler-cli": "^7.2.7",
-    "@angular/language-service": "^7.2.7",
-    "@types/jasmine": "~2.8.8",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^8.9.5",
-    "codelyzer": "~4.3.0",
-    "jasmine-core": "~2.99.1",
-    "jasmine-spec-reporter": "~4.2.1",
-    "karma": "~3.0.0",
-    "karma-chrome-launcher": "~2.2.0",
-    "karma-coverage-istanbul-reporter": "~2.0.1",
-    "karma-jasmine": "~1.1.2",
-    "karma-jasmine-html-reporter": "^0.2.2",
-    "ng-packagr": "^4.1.0",
-    "prettier": "1.16.4",
-    "protractor": "~5.4.0",
-    "ts-node": "~7.0.0",
-    "tsickle": ">=0.29.0",
-    "tslib": "^1.9.0",
-    "tslint": "~5.11.0",
-    "typescript": "3.2.4"
-  },
-  "browser": {
-    "http": false,
-    "https": false,
-    "net": false,
-    "path": false,
-    "stream": false,
-    "tls": false
-  },
-  "bugs": {
-    "url": "https://github.com/jwashke/toast-ui-image-editor-angular-wrapper/issues"
-  },
-  "homepage": "https://github.com/jwashke/toast-ui-image-editor-angular-wrapper#readme",
-  "main": "index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
