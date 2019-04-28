@@ -1,5 +1,5 @@
 {
-  "name": "ngx-tui-image-editor",
+  "name": "zelikov-ngx-tui-image-editor",
   "version": "7.0.2",
   "description": "A simple Angular6+ wrapper for TOAST UI Image Editor",
   "author": {
@@ -33,7 +33,7 @@
     "@angular/router": "^7.2.7",
     "core-js": "^2.5.4",
     "rxjs": "~6.4.0",
-    "tui-image-editor": "^3.5.1",
+    "zelikov-tui-image-editor": "^3.5.3-beta1",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
