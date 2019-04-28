@@ -2,12 +2,10 @@
   "name": "zelikov-ngx-tui-image-editor",
   "version": "7.0.2",
   "description": "A simple Angular6+ wrapper for TOAST UI Image Editor",
-  "author": {
-    "name": "Joshua Washke"
-  },
+  "author": "Joshua Washke",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jwashke/toast-ui-image-editor-angular-wrapper"
+    "url": "git+https://github.com/jwashke/toast-ui-image-editor-angular-wrapper.git"
   },
   "license": "MIT",
   "scripts": {
@@ -20,7 +18,6 @@
     "format": "prettier --write \"src/**/*.{js,ts,html,css}\"",
     "format:projects": "prettier --write \"projects/**/*.{js,ts,html,css}\""
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^7.2.7",
     "@angular/common": "^7.2.7",
@@ -69,5 +66,10 @@
     "path": false,
     "stream": false,
     "tls": false
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jwashke/toast-ui-image-editor-angular-wrapper/issues"
+  },
+  "homepage": "https://github.com/jwashke/toast-ui-image-editor-angular-wrapper#readme",
+  "main": "index.js"
 }
